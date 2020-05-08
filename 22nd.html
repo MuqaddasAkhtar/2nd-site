@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+      * {
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+      }
+      .navbar-nav{
+          position: relative;
+          right: 29%;
+          margin: 5px;
+         
+      }
+      .navbar-brand{
+          position: relative;
+          left: 3%;
+          bottom: 6px;
+      }
+      .nav-item{
+          padding: 3px;
+      }
+      .mano{
+          position: relative;
+          left: 200%;
+      }
+      .fa{
+          position: relative;
+          left: 610px;
+          top: 15px;
+      }
+      .mano2{
+          position: relative;
+          right: 40px;
+      }
+      .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:purple;
+  
+  
+}
+.centered h1{
+  text-shadow: crimson;
+  font-size: 60px;
+}
+
+.row h2,p {
+  position: relative;
+  top: 30px;
+  left: 15%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-row-gap: 50px;
+  grid-column-gap: 30px;
+  background-color:grey;
+  padding: 10px;
+  
+}
+
+.item1 {
+  background-color: black;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  padding: 25px ;
+  font-size: 40px;
+  position: relative;
+  left: 25px;
+
+}
+.item3 {
+  background-color: black;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  padding: 25px ;
+  font-size: 40px;
+  position: relative;
+  left: 25px;
+
+}
+.item2 {
+  background-color:blueviolet;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  padding: 25px ;
+  font-size: 40px;
+  position: relative;
+  left: 25px;
+
+}
+.img-jmbo{
+  background-image: url(8.jpeg);
+  background-size: 100%;
+}
+.img-jmbo{
+  background-image:url(11.jpeg) ;
+}
+
+  </style>
+ </head>
+ <body>
+    
+        
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Tample University<sup style="color: tomato;">Sites</sup></a>
+      
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!-- Navbar links -->
+        <div class="container">
+        <div class="collapse navbar-collapse" id="collapsibleNavbar ">
+          <ul class="navbar-nav mx-auto ">
+            <li class="nav-item   ">
+              <a class="nav-link text-white" href="#">Themes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Help</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Guidelines</a>
+            </li>
+            <!--icon-->
+            <i class="fa fa-arrow-right" style="color: white;"></i>
+          <!--login-->
+          <div class="mano">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Login</a>
+              </li>
+          </div>
+          </ul>
+          <!--button-->
+          <div class="mano2">
+            <button type="button" class="btn btn-danger">Creat a site</button>
+            </div>
+        </div>
+      </nav>
+     <div>
+          <img src="44.jpg"     style="width:100%; height:517px;">
+          
+            <div class="centered"><h1>WORDPRESS + TEMPLE</h1></div>
+            
+      </div>
+      <!--grid-->
+      <section>
+        <div class="container-fluid">
+          
+        
+        <div class="row mb-3">
+          <div class="col-sm-6 col-lg-6 col-lg-6 col-12">
+            <h2>CREATE AND SHARE</h2>
+              <h2><fon style="color:red;">COLLABORATE WITH OTHERS</font></h2>
+              
+              <p>Sites.temple.edu uses WordPress, one of the easiest, and most popular,
+                 tools <br>to create simple yet robust sites. WordPress is used on over <br>33% of ALL websites, 
+                and has over 60% of market share. <br>Why not create your own site today?</p>
+          </div>
+          <div class="col-sm-6 col-lg-6  col-lg-6 col-12">
+            <img src="33.jpg" class="img-fluid">
+          </div>
+          </div>
+      </section>
+      <!--next grid -->
+      <section>
+        <div class="grid-container" >
+        
+          <div class="item1">
+            <h3 >Powerful Features</h3>
+            <h6>
+              17 different theam with variouse features.Dark<br>theam,modren typhogfraphy,and photo<br>galleries are 
+              just a gfew ogf thje gfeature
+            </h6>
+            </div>
+            <div class="item2">
+              <h3>Powerful Features</h3>
+              <h6>
+                17 different theam with variouse features.Dark<br>theam,modren typhogfraphy,and photo<br>galleries are 
+                just a gfew ogf thje gfeature
+              </h6>
+              </div>
+              <div class="item3">
+                <h3>Powerful Features</h3>
+                <h6>
+                  17 different theam with variouse features.Dark<br>theam,modren typhogfraphy,and photo<br>galleries are 
+                  just a gfew ogf thje gfeature
+                </h6>
+                </div>
+       </div>
+      </section>
+      <!--3rd section-->
+      <section>
+      <div class="container">
+          
+        <div class="row mt-5">
+          <div class="col-sm-6 col-lg-6  col-lg-6 col-12">
+            <img src="4.jpeg" class="img-fluid">
+          </div>
+          <div class="col-sm-6 col-lg-6 col-lg-6 col-12">
+            <h2>CREATE AND SHARE</h2>
+              <h2><fon style="color:red;">COLLABORATE WITH OTHERS</font></h2>
+              
+              <p>Sites.temple.edu uses WordPress, one of the easiest, and most popular,
+                 tools <br>to create simple yet robust sites. WordPress is used on over <br>33% of ALL websites, 
+                and has over 60% of market share. <br>Why not create your own site today?</p>
+          </div>
+          </div>
+        </section>
+         <!--3rd section-->
+      <section>
+        <div class="container">
+            
+          <div class="row mt-5">
+           
+            <div class="col-sm-6 col-lg-6 col-lg-6 col-12">
+              <h2>MANY POSSIBILITIES</h2>
+                <h2><fon style="color:red;">WHAT YOU WILL SEE SITE GFOR</font></h2>
+                
+                <p>Sites.temple.edu uses WordPress, one of the easiest, and most popular,
+                   tools <br>to create simple yet robust sites. WordPress is used on over <br>33% of ALL websites, 
+                  and has over 60% of market share. <br>Why not create your own site today?</p>
+            </div>
+            <div class="col-sm-6 col-lg-6  col-lg-6 col-12">
+              <img src="0000.jpg" width="95%">
+            </div>
+            </div>
+          </section>
+
+          <section>
+          <div class="jumbotron img-jmbo mt-3">
+            <div class="container-fluid ">
+              <h1><b>XLET'S GFET START</b></h1>      
+              <h1 >WANT A NEW SITE? QUICK .EASY. FREE</h1>
+              <h6 >You new website is just a clickaway</h6>
+              <button type="button" class="btn btn-outline-secondary">Creat a Site</button>
+            </div>
+          </div>
+        </section>
+        <!--footer-->
+
+        <!-- Footer -->
+<footer class="page-footer font-small blue pt-4 bg-dark">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left text-white">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">Tample University</h5><br>
+        <h6>2020 all Tample University.All right reserved.<br>Proudly powered by Wordpress</h6>
+
+      </div>
+      <!-- Grid column -->
+
+      
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+       
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" style="color: white;">News</a>
+          </li><br>
+          <li>
+            <a href="#!" style="color: white;">Site Diroctry</a>
+          </li><br>
+          <li>
+            <a href="#!" style="color: white;">Guidline</a>
+          </li><br>
+
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3" style="color: white;">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/" style="color: white;"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+          
+
+          
+
+      
+    
+      
+ </body>
+ </html>
